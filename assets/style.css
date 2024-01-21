@@ -18,21 +18,19 @@
     transform: translate(-50%, -50%);
 }
 .overlay {
-    position: absolute;
-    width: 150%;
-    height: 150%;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
-    background: #14724b;
-    mix-blend-mode: overlay;
-    z-index: -1;
+  position: absolute;
+  width: auto;
+  height: auto;
+  min-width: 100%;
+  min-height: 120%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  background: #14724b;
+  mix-blend-mode: overlay;
+  z-index: -1;
 
-  }
+}
 .wrapper {
     max-width: 1400px;
     margin: auto;
